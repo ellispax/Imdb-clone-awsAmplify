@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "netflixclone",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\5stars\\Documents\\Netflix\\netflix-clone\\amplify\\backend\\api\\netflixclone\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

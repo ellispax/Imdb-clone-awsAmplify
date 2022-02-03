@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -15,13 +16,28 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.trailerList { 
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.trailerCard {
+  display: inline-block;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.trailerTitle {
+  font-weight: bold;
 }
 
 .App-link {
